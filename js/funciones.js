@@ -19,3 +19,40 @@ for(a in semana)
 {
     console.log(semana[a]);
 }
+function sum(){
+    var n1 = 2;
+    var n2 = 3;
+    var res = n1 + n2;
+    console.log("la suma es: ", res)
+}
+sum()
+
+var cadena = "En un lugar de la Mancha de cuyo nombre no quiero acordarme...";
+var letras = cadena.split("");
+var resultado = "";
+
+for(i in letras)
+{
+    if(letras[i] == 'a')
+    {
+        break;
+    }
+    else
+    {
+        resultado += letras[i];
+    }
+}
+console.log(resultado);
+var parrafos = document.getElementsByTagName("p");
+console.log(parrafos);
+parrafos[1].innerText = "Nuevo texto";
+
+var mimensaje = document.getElementById("mensaje");
+mimensaje.style.background = "gray";
+console.log(mimensaje);
+
+function refrescarvalor()
+{
+    var entrada = document.getElementById("entrada");
+    mimensaje.innerHTML = entrada.value;
+}
