@@ -1,0 +1,79 @@
+h1{
+    color: yellow !important;
+}
+h1{
+    color: brown;
+}
+.encabezado{
+    width: 100%;
+    height: 50px;
+    background: #fcfcfc;
+    border: #cfcfcf solid 1px;
+    border-radius: 10px;
+}
+.encabezadocontenido{
+    margin: 10px 0px;
+    background: maroon;
+}
+[data-vegetable]{
+    color: green
+}
+[data-vegetable="liquid"]{
+    background-color: goldenrod;
+}
+[data-vegetable~="spicy"]{
+    color: red;
+}
+.texto{
+    border: black dotted 3px;
+    border-radius: 5px;
+    background-color: seagreen;
+}
+.texto:hover{
+    border: rgb(214, 49, 49) dotted 3px;
+    border-radius: 2px;
+    background-color: skyblue;
+}
+a{
+    font-size: 18pt;
+    color: chocolate;
+    text-decoration: none;
+    font-style: oblique;
+}
+a:hover{
+    font-size: 20pt;
+    color: rgb(27, 25, 160);
+    text-decoration: none;
+    font-style: initial;
+}
+a:visited{
+    color: blueviolet;
+}
+.padre div{
+    width: 32%;
+    height: 20px;
+    border: black solid 1px;
+    border-radius: 10px;
+    display: inline-table;
+}
+.padre div:first-child{
+    background-color: rgb(4, 55, 131);
+}
+.padre div:last-child{
+    background-color: rgb(199, 12, 12);
+}
+.padre div+div{
+    background-color: rgb(32, 25, 25);
+}
+#perfil{
+    width: 50px;
+    height: 50px;
+    border: black solid 1px;
+    border-radius: 50%;
+}
+#perfil img{
+    width: 50px;  
+    height: 50px;
+    border: black solid 1px;
+    border-radius: 50%;  
+}
