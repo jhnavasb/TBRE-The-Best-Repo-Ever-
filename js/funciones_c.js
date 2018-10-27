@@ -45,6 +45,13 @@ function result()
     }
     else if(op == '/')
     {
-        box.value = num[0] / num[1];
+        var k = num[0] / num[1];
+        if(k == "Infinity")
+        {
+            alert("NO SE PUEDE!!!!");
+        }
+        else{
+            box.value = k;
+        }
     }
 }
